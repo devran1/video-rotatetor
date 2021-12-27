@@ -44,10 +44,10 @@ def video_maker(video_name):
         img = cv2.imread(file)
 
         height, width ,layers= img.shape
-        h,w=height//4, width//4
-        img=cv2.resize(img,(h,w))
+        w,h=width//4,height//4
+        img=cv2.resize(img,(w,h))
 
-        size = (h,w)
+        size = (w,h)
         frame_array.append(img)
 
     #writing image to a video file

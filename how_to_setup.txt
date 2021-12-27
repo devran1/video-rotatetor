@@ -1,0 +1,4 @@
+virutalenv name
+source name/bin/activate
+pip install -r requirements.txt 
+
