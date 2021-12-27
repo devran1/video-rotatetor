@@ -1,0 +1,3 @@
+put video in this file and from terminal do this python call.py
+
+add tkinter user interface inform about that there is not going to be voice
