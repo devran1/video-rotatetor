@@ -17,6 +17,13 @@ from os.path import isfile, join
 import shutil   
 import argparse
 
+
+parser=argparse.ArgumentParser(description="rotates videos by 90 degrees clockwise")
+parser.add_argument("video_file",help="add video file to rotate",type=str)
+args=parser.parse_args()
+
+
+
 # directory for pictures and videos
 parent_dir = "./"
 directories=["pic_file","rotated_pic","rotated_video","audios"]
@@ -26,10 +33,6 @@ for i in directories:
     path = os.path.join(parent_dir, i)
     os.mkdir(path)
 
-
-parser=argparse.ArgumentParser()
-parser.add_argument("video_file",help="add video file to rotate",type=str)
-args=parser.parse_args()
 
 
 #filename="test.mp4"
