@@ -2,3 +2,4 @@ virutalenv name
 source name/bin/activate
 pip install -r requirements.txt 
 
+python3 call.py test.mp4
