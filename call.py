@@ -15,7 +15,7 @@ from audio_video_combine import *
 import os
 from os.path import isfile, join
 import shutil   
-
+import argparse
 
 # directory for pictures and videos
 parent_dir = "./"
@@ -27,8 +27,13 @@ for i in directories:
     os.mkdir(path)
 
 
+parser=argparse.ArgumentParser()
+parser.add_argument("video_file",help="add video file to rotate",type=str)
+args=parser.parse_args()
 
-filename="test.mp4"
+
+#filename="test.mp4"
+filename=args.video_file
 
 
 picture(filename)
