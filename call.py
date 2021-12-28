@@ -18,7 +18,7 @@ import shutil
 import argparse
 
 
-parser=argparse.ArgumentParser(description="rotates videos by 90 degrees clockwise")
+parser=argparse.ArgumentParser(description="rotates the videos by 90 degrees clockwise")
 parser.add_argument("video_file",help="add video file to rotate",type=str)
 args=parser.parse_args()
 
