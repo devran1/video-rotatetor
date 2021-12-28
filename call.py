@@ -28,7 +28,7 @@ for i in directories:
 
 
 
-filename="MOV_0008.mp4"
+filename="test.mp4"
 
 
 picture(filename)
