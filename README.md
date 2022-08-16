@@ -21,3 +21,6 @@ https://user-images.githubusercontent.com/40788986/184887021-fd7d65cc-038d-4f2b-
 https://user-images.githubusercontent.com/40788986/184887060-996e9920-ab7c-4574-a3f1-759ac84fd3bf.mp4
 
 quality drops otherwise process will be killed
+
+
+add tkinter user interface (UI)
