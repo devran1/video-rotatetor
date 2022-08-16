@@ -1,3 +1,0 @@
-add tkinter user interface
-
-inform quality drops
